@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <windows.h>
+//终端交互时输入中文再输出时结果是乱码有办法解决吗
 int result;
 int caculate_cf(int x,int p){
-    result=(p-x)*(p-x);//这个函数拆出来好奇怪~
+    result=(p-x)*(p-x);//这个函数拆出来好奇怪
+    return result;
 }
 int caculate_zh(int x,int y ,int z){
     
@@ -22,9 +24,10 @@ void list(int zh1,int zh2,int zh3)
       printf("小强 > 小林 > 小明");
   } else if (zh3 >= zh1 && zh1 >= zh2) {
       printf("小林 > 小明 > 小强");
+
   } else { // zh3 >= zh2 && zh2 >= zh1
       printf("小林 > 小强 > 小明");
-  }}//是直接用这个逻辑判断不用再写吗~
+  }}//~~~
 
 int main(){
   int x1, x2, x3;
