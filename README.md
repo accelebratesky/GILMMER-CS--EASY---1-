@@ -1,7 +1,7 @@
 # GILMMER-CS--EASY---1-
 微光工作室招新题cs笔记
 
-part2代码写在hello.c,part1截图在anwser.md
+part2代码写在hello.c,part1截图在anwser.md(image3和4)
 
 ## part1
 ![alt text](image.png)
