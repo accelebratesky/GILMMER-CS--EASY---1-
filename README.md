@@ -1,6 +1,8 @@
 # GILMMER-CS--EASY---1-
 微光工作室招新题cs笔记
 
+part2代码写在hello.c,part1截图在anwser.md
+
 ## part1
 ![alt text](image.png)
 ps:结合网站菜鸟教程和与ai的对话了解相关知识
